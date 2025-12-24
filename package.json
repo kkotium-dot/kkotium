@@ -1,0 +1,13 @@
+{
+  "name": "kkotium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/api/server.ts",
+    "start": "node dist/api/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
