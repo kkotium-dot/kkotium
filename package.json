@@ -1,13 +1,25 @@
 {
   "name": "kkotium",
   "version": "1.0.0",
-  "description": "",
+  "description": "꽃틔움가든 - 네이버 스마트스토어 상품 관리 앱",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/api/server.ts",
-    "start": "node dist/api/server.js"
+    "start": "node dist/api/server.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
+    "prisma": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
 }
